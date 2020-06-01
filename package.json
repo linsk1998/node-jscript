@@ -1,0 +1,13 @@
+{
+  "name": "node-jscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fake": "node.cmd test.js",
+    "real": "node.exe test.js",
+    "bulid":"copy /b src\\global.js + src\\console.js + src\\process.js + src\\task.js + src\\require.js + src\\node.js node.js"
+  },
+  "author": "linsk",
+  "license": "MIT"
+}
